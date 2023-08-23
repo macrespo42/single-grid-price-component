@@ -16,3 +16,119 @@
 body {
   background-color: var(--light-gray);
 }
+
+.container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.price-card {
+  width: 80%;
+  margin: auto;
+}
+
+.header {
+  padding: 3rem 2rem;
+  background-color: white;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.header h1 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: var(--cyan);
+  margin-bottom: 1.5rem;
+}
+
+.header h2 {
+  font-size: 1.2rem;
+  font-weight: 400;
+  color: var(--bright-yellow);
+  margin-bottom: 1rem;
+}
+
+.header p {
+  font-size: 1rem;
+  color: var(--grayish-blue);
+  text-align: justify;
+  width: 80%;
+}
+
+.footer {
+  color: white;
+  margin: 0;
+}
+
+.footer .footer-header {
+  width: 100%;
+  padding: 1rem 2rem;
+  background-color: var(--cyan);
+  margin: 0;
+  padding-bottom: 1.5rem;
+}
+
+.footer .footer-header h3 {
+  font-size: 1.2rem;
+  font-weight: 400;
+  padding-bottom: 1rem;
+}
+
+.footer .price {
+  font-size: 2rem;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.footer .price-per-month {
+  color: var(--light-gray);
+  font-weight: 400;
+  font-size: 0.8rem;
+  padding-bottom: 0.5rem;
+}
+
+.footer .subtitle {
+  font-size: 0.8rem;
+  margin-bottom: 1rem;
+}
+
+.footer button {
+  background-color: var(--bright-yellow);
+  color: white;
+  text-align: center;
+  white-space: nowrap;
+  padding: 0.5rem 5.5rem;
+  text-transform: capitalize;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 5px 5px 2px 0.5px rgba(0, 0, 0, 0.1);
+
+}
+
+.footer .why-us {
+  background-color: rgb(121, 188, 188);
+  margin: 0;
+  padding: 2rem 2rem;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.footer .why-us h3 {
+  font-size: 1.2rem;
+  font-weight: 400;
+  padding-bottom: 1rem;
+}
+
+.footer ul {
+  list-style: none;
+  color: var(--light-gray);
+}
+
+.footer ul li {
+    font-size: 0.7rem;
+    margin-bottom: 0.2rem;
+}
