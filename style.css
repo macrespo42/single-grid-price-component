@@ -109,7 +109,7 @@ body {
   border: none;
   border-radius: 5px;
   box-shadow: 5px 5px 2px 0.5px rgba(0, 0, 0, 0.1);
-
+  cursor: pointer;
 }
 
 .footer .why-us {
