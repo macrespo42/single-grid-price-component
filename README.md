@@ -2,7 +2,7 @@
 
 ![Design preview for the Single price grid component coding challenge](./design/desktop-preview.jpg)
 
-# My implementation: [Single price grid component]('https://single-grid-price-component-roan.vercel.app/')
+# My implementation: [Single price grid component](https://single-grid-price-component-roan.vercel.app/)
 
 ## Welcome! 👋
 
